@@ -12,8 +12,8 @@ st.title("🖼️ Visual Appeal Checker with Comments (Powered by Sightengine AI
 
 # Sidebar for API Key Input
 st.sidebar.header("🔐 API Credentials")
-api_user = st.sidebar.text_input("Sightengine API User", type="default")
-api_secret = st.sidebar.text_input("Sightengine API Secret", type="password")
+api_user = "641573785"
+api_secret = "mrdnkZpJDNUxoCvjx6NXYDLa8w5cc9Ng"
 
 # Upload images
 uploaded_files = st.file_uploader("📁 Upload Image Files", accept_multiple_files=True, type=["jpg", "jpeg", "png"])
